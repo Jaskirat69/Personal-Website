@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://use.fontawesome.com/d1341f9b7a.js"></script>
+<link rel="stylesheet" href="style.css">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+.box{
+    text-align: left;
+}
+
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+</style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="index.html"><i class="fa fa-fw fa-home"></i> Home</a> 
+        <a href="about.html"><i class="fa fa-user-circle-o"></i>  About Me</a>
+        <a href="servives.html"><i class="fa fa-database"></i>  My Services</a>
+        <a class="active" href="contact.html"><i class="fa fa-phone-square"></i>  Contact info</a> 
+      </div>
+
+      <div class="box">
+        <center><h1>My Contact Info</h1></center>
+        <h5>
+        Cell: <a href="tel: +91 8527431920"> (+91) 8527431920</a><br>
+        Email: <a href="mailto: jaskiratsingh1331@gmail.com"> jaskiratsingh1331@gmail.com  </a> <br><br>
+        
+        Address: BG-6 312/A Paschim Vihar New Delhi- 110063,India
+    </h5>
+    <br>
+<ul>
+    <li><a href="https://api.whatsapp.com/send?phone=918527431920""><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+<li><a href="https://www.facebook.com/jaskirat.singh.54922169/"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+<li><a href="https://www.instagram.com/jaskirat_singh_007/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+    </div>
+
+<div class="box">
+    <center><h1>Contact Form</h1></center>
+  <form >
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your first name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="email id">Email ID</label>
+    <input type="text" id="email" name="Email Id" placeholder="Your email Id..">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="cell" name="Contact" placeholder="Your contact number..">
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>

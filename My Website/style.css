@@ -1,0 +1,85 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: url(background.jpg) no-repeat;
+  background-size: cover;
+}
+.navbar {
+  width: 100%;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.navbar a:hover {
+  background-color: rgba(241, 165, 23, 0.904);
+}
+
+.active {
+  background-color: rgb(128, 41, 0);
+}
+@media screen and (max-width: 800px) {
+  .navbar a {
+    float: none;
+    display: block;
+    
+  }
+}
+.box{
+  width: 600px;
+  background: rgba(114, 93, 93, 0.274);
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  color: white;
+  font-family: 'Century Gothic',sans-serif;
+}
+.box-img{
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+.box h1{
+  font-size: 40px;
+  letter-spacing: 4px;
+  font-weight: 100;
+}
+.box h5{
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: 100;
+}
+.box p{
+  text-align: justify;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+.box li{
+  display: inline-block;
+  margin: 6px;
+  list-style: none;
+}
+.box li a{
+  color: antiquewhite;
+  text-decoration: none;
+  font-size: 60px;
+  transition: all ease-in-out 250ms;
+}
+.box li a:hover{
+  color: #918980;
+}
+@media screen and (max-width: 800px){
+  .box {
+    width: 100%;
+  }
+}
